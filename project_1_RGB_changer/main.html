@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Color Genrator</title>
+        <link rel="stylesheet" href="styles.css">
+        
+    </head>
+    <body>
+        <h1>RGB Color</h1>
+        
+        <div class="red">
+            <label> Red:&emsp;&emsp;</label>
+            <input type="range" max="255" min="0" value="0" step="1" id="set_red" onchange="get_red()">
+            <a>&emsp;&emsp;&emsp;Value = </a>
+            <output id="show_red">0</output>
+        </div>
+        <div class="green">
+            <label> Green:&emsp;</label>
+            <input type="range" max="255" min="0" value="0" id = "set_green" onchange="get_green()">
+            <a>&emsp;&emsp;&emsp;Value = </a>
+            <output id="show_green">0</output>
+        </div>
+        <div class="blue">
+            <label> Blue:&emsp;&emsp;</label>
+            <input type="range" max="255" min="0" value="0" id = "set_blue" onchange="get_blue()">
+            <a>&emsp;&emsp;&emsp;Value = </a>
+            <output id="show_blue">0</output>
+        </div>
+        <br/>
+        <a>Resulting Color:</a>
+        <div class="color_box" id="result"></div>
+    </body>
+    
+    
+    <script src="main.js">
+
+    </script>
+    
+    
+    
+</html>
